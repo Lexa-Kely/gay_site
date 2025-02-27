@@ -1,0 +1,25 @@
+//- The main layout for all pages
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Кращий Розважальний Центр Світа Чесно Без Обмана
+        link(rel="stylesheet", href="css/styles.css")
+        link( rel="website icon" type="png" href="img/dot.png")
+        block seo 
+    body 
+
+        include ../helpers/vars
+        include ../helpers/mixins
+
+        include ../components/svg_sprite
+
+        include ../components/header
+
+        main.main 
+            block content 
+
+        include ../components/footer
+        
