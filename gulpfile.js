@@ -2,7 +2,7 @@ import browserSync from "browser-sync"
 import gulp from "gulp"
 import del from "del"
 import pug from "gulp-pug"
-import * as coreSass from "sass"; // Рекомендований імпорт
+import coreSass from "sass"; // Рекомендований імпорт
 import gulpSass from "gulp-sass";
 import autoprefixer from "gulp-autoprefixer"
 import concat from "gulp-concat"
